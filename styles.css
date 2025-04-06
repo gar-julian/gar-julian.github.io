@@ -1,0 +1,12 @@
+h1 {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+}
+
+h3 {
+    font-family: "IBM Plex Mono", monospace;
+}
+
+.main {
+    padding: 2.5%;
+}
