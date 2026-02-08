@@ -1,9 +1,11 @@
 body {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     min-height: 100vh;
     padding-top: 2rem;
+    background: #0f1115;
+    color: #e6e6e6;
 }
 
 .container {
@@ -13,12 +15,30 @@ body {
 h1 {
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
+    color: #f2f2f2;
 }
 
 h3 {
     font-family: "IBM Plex Mono", monospace;
+    color: #b6b6b6;
 }
 
 .main {
     padding: 2.5%;
+}
+
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.video-embed {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
 }
